@@ -1,0 +1,46 @@
+{
+    "settings": {
+        "token": "token",
+        "endpointUrl": "http://www.xg4ken.com/media/redir.php"
+    },
+
+    "input": {
+        "type": "track",
+        "event": "Event Name",
+        "userId": "dft5456546dghg",
+        "properties": {
+            "orderId": "xxx",
+            "revenue": 19.99,
+            "promo": "",
+            "currency": "USD",
+            "label": "some-label",
+            "category": "some-category"
+        },
+        "context": {
+            "page": {
+                "url": "https://page.where/it/?happened=",
+                "referrer": "document.location.referrer from that page context"
+            },
+            "referrer": {
+                "id": "KENSHOO_CLICK_ID",
+                "type": "Kenshoo"
+            },
+            "integrations": {
+                "Kenshoo": {
+                    "cookie": "aacf87b453114417",
+                    "type": "some-conv"
+                }
+            }
+        }
+    },
+    "output": {
+        "track": "1",
+        "id": "token",
+        "val": 19.99,
+        "orderId": "xxx",
+        "promoCode": "",
+        "valueCurrency": "USD",
+        "type": "conv",
+        "cookie": ""
+    }
+}
