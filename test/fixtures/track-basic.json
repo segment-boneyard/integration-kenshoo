@@ -1,9 +1,4 @@
 {
-    "settings": {
-        "token": "token",
-        "endpointUrl": "http://www.xg4ken.com/media/redir.php"
-    },
-
     "input": {
         "type": "track",
         "event": "Event Name",
