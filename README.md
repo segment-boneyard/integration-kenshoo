@@ -1,6 +1,6 @@
-[![Build Status](https://circleci.com/gh/segment-integrations/integration-tune/tree/master.png?style=svg)](https://circleci.com/gh/segment-integrations/integration-tune/tree/master)
+[![Build Status](https://circleci.com/gh/segment-integrations/integration-kenshoo/tree/master.png?style=svg)](https://circleci.com/gh/segment-integrations/integration-kenshoo/tree/master)
 
-# integration-segmentio
-Server based integration for tracking events from Segment   
+# integration-kenshoo
+Server based integration for sending Segment events to Kenshoo
 
-NPM module to be published to and used by [Segment](https://segment.com/)
+NPM module written by [Kenshoo](https://kenshoo.com/) to be published to and used by [Segment](https://segment.com/)
