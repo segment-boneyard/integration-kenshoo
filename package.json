@@ -6,7 +6,7 @@
   "author": "Moshe Eshel <moshee@kenshoo.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kenshoo/integration-segmentio"
+    "url": "https://github.com/segment-integrations/integration-kenshoo"
   },
   "main": "lib/index.js",
   "scripts": {

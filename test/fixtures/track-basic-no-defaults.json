@@ -40,7 +40,6 @@
         "orderId": "xxx",
         "promoCode": "",
         "valueCurrency": "USD",
-        "type": "conv",
-        "cookie": ""
+        "type": "conv"
     }
 }

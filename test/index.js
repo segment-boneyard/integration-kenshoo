@@ -16,7 +16,7 @@ describe("Kenshoo / SegmentIO integration", function() {
     beforeEach(function(){
         settings = {
             token: 'token',
-            endpointUrl: 'http://www.xg4ken.com/media/redir.php'
+            subdomain: '4075'
         };
         k = new K(settings);
         test = Test(k, __dirname);
@@ -25,9 +25,9 @@ describe("Kenshoo / SegmentIO integration", function() {
     it('should have the correct settings', function(){
         test
             .name('Kenshoo')
-            .channels(['server', 'mobile', 'client'])
+            .channels(['server', 'mobile'])
             .ensure('settings.token')
-            .ensure('settings.endpointUrl')
+            .ensure('settings.subdomain')
     });
 
     describe('.validate()', function(){
@@ -70,15 +70,15 @@ describe("Kenshoo / SegmentIO integration", function() {
         var options = {};
         it('should map basic track with values', function() {
             var json = test.fixture('track-basic');
-            var payload = mapper.track(toMessage(json.input), settings, options);
-            assert.deepEqual(payload, json.output);
+            var mapped = mapper.track(toMessage(json.input), settings, options);
+            assert.deepEqual(mapped.payload, json.output);
 
         });
 
         it('should map basic track with no values and assign defaults', function() {
             var json = test.fixture('track-basic-no-defaults');
-            var payload = mapper.track(toMessage(json.input), settings, options);
-            assert.deepEqual(payload, json.output);
+            var mapped = mapper.track(toMessage(json.input), settings, options);
+            assert.deepEqual(mapped.payload, json.output);
 
         });
 
