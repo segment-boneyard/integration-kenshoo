@@ -18,7 +18,7 @@ describe("Kenshoo / Segment integration", function() {
     settings = {
       token: 'token',
       subdomain: '4075',
-      events: {
+      eventToTypeMap: {
         'eventName Test': 'conv',
         'event name 1': 'click',
         'some-event': 'conv'
