@@ -1,6 +1,6 @@
 {
   "name": "integration-kenshoo",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "integration-version": "2016-06-24",
   "private": true,
   "description": "Kenshoo server-side integration",
