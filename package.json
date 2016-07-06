@@ -1,7 +1,7 @@
 {
   "name": "integration-kenshoo",
   "version": "0.1.0",
-  "integration-version": "2016-06-09",
+  "integration-version": "2016-07-06",
   "private": true,
   "description": "Kenshoo server-side integration",
   "author": "Moshe Eshel <moshee@kenshoo.com>",
