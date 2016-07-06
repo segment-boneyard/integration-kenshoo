@@ -1,6 +1,6 @@
 {
   "name": "integration-kenshoo",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "integration-version": "2016-07-06",
   "private": true,
   "description": "Kenshoo server-side integration",
@@ -14,7 +14,10 @@
     "test": "make test"
   },
   "dependencies": {
-    "segmentio-integration": "^3.2.1"
+    "obj-case": "^0.2.0",
+    "reject": "0.0.1",
+    "segmentio-integration": "^3.2.1",
+    "sinon": "^1.17.4"
   },
   "devDependencies": {
     "extend": "^2.0.0",

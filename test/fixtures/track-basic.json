@@ -1,7 +1,7 @@
 {
     "input": {
         "type": "track",
-        "event": "Event Name",
+        "event": "Event Name Test",
         "userId": "dft5456546dghg",
         "properties": {
             "label": "some-label",
@@ -14,20 +14,13 @@
             },
             "referrer": {
                 "id": "KENSHOO_CLICK_ID",
-                "type": "Kenshoo"
-            },
-            "integrations": {
-                "Kenshoo": {
-                }
+                "type": "kenshoo"
             }
         }
     },
     "output": {
         "track": "1",
         "id": "token",
-        "val": 0.0,
-        "orderId": "",
-        "promoCode": "",
         "valueCurrency": "USD",
         "type": "conv"
     }
