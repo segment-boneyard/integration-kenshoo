@@ -1,7 +1,7 @@
 {
   "name": "@segment/integration-kenshoo",
   "version": "2.0.1",
-  "private": true,
+  
   "description": "Kenshoo server-side integration",
   "author": "Moshe Eshel <moshee@kenshoo.com>",
   "repository": {
